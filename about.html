@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>KappaGreen</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-iconn">
+        <nav>
+            <a href="index.html"><img src="kappa114.png"></a>
+            <div class= "nav-links" id="navLinks">
+                <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="communtiy.html">COMMUNITY</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!------aboutpagecontent---->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+        <h1>Going Kappa Green</h1>
+        <p>Going Kappa Green is a diverse community that spreads awareness about climate change and the harm to our ecosystems, small or big. We make sure to do it with excellence, devotion, enamor, and sedulous manner, all while being undaunted! GKG was originally made for a hackathon project, but found its way to a community that anyone or anything, even a kappa, can join! </p>
+        <a href="" class="hero-btn green-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="kappacucumber.png">
+    </div>
+    </div>
+</section>
+  
+    <!----Footer ----->
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Contact Us through the COMMUNITY tab or through our discord!</p>
+        <div class= "icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made for <i class="fa fa-code"></i> Simplihacks Hackathon 2022 <i class="fa fa-code"></i> </p>
+    </section>
+    
+  <!--------js sidebannarmobile-------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
