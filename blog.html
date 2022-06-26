@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>KappaGreen</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-iconn">
+        <nav>
+            <a href="index.html"><img src="kappa114.png"></a>
+            <div class= "nav-links" id="navLinks">
+                <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="communtiy.html">COMMUNITY</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blog</h1>
+    </section>
+  
+    <!------Blogcontent---->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="kappa114.png">
+                <h2>We are Going Kappa Green G.K.G</h2>
+                <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p2>
+                <br>
+                <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p2>
+                <br>
+                <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p2>
+                <br>
+                <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p2>
+                <br>
+                <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p2>
+                <div class="share-box">
+                    <h3>Wanna share something?</h3>
+                    <form class="share-form">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea rows="5" placeholder="Type here"></textarea>
+                        <button type="submit" class= "hero-btn green-btn">SHARE</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Upcoming Posts</h3>
+            <div>
+                <span>GKG in the Everglades</span>
+                <span>22 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+</span>
+            </div>
+            <div>
+                <span>GKG near YOU!</span>
+                <span>22 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+</span>
+            </div>
+            <div>
+                <span>How it all began...</span>
+                <span>22 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+</span>
+            </div>
+            <div>
+                <span>What's Next?</span>
+                <span>23 <i class="fa fa-calendar-check-o" aria-hidden="true"></i></span>
+            </div>
+            <div>
+                <span>Feedback Analytics</span>
+                <span>23 <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+</span>
+            </div>
+            </div>
+        </div>
+    </section>
+
+   <!--------KIW-----> 
+<section class="water">
+    <h1>GKG and Waters</h1>
+    <p>Going Kappa Green is beginning projects on the following ecosystems:<br>(Wanna contribute? Check out our Community page!)</p>
+    <div class="row">
+        <div class="water-col">
+            <img src="Marine.jpg">
+            <div class="layer">
+                <h3>MARINE</h3>
+            </div>
+        </div>
+    <div class="water-col">
+            <img src="Fresh.jpg">
+            <div class="layer">
+                <h3>Fresh Water</h3>
+            </div>
+        </div>
+        <div class="water-col">
+            <img src="realsalt.png">
+            <div class="layer">
+                <h3>Salt Water</h3>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <!----Footer ----->
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Contact Us through the COMMUNITY tab or through our discord!</p>
+        <div class= "icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made for <i class="fa fa-code"></i> Simplihacks Hackathon 2022 <i class="fa fa-code"></i> </p>
+    </section>
+    
+  <!--------js sidebannarmobile-------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
