@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Marine ClimateChange Quiz</title>
+   <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="MarineQuiz.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header role="banner">
+    <h1><img src="https://img.icons8.com/ios/250/000000/earth-planet.png" alt="earth logo image" class="logo-img">Marine Quiz!</h1>
+  </header>
+  <main role="main">
+    <section class="start-section">
+      <p>Test Your Marine and Climate Change Knowledge!</p><input type="button" value="Begin" class="start-button js-start-button">
+    </section>
+    <div class="quiz-box">
+      <div class="progress-section">
+      <hr>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ_wbUm1vMiakLbNj1q4biA8lro-mtV_OjvS_wG6q-_9M5peKRBQ" alt="score board image" class="score-img"></div>
+      <div class="quiz-section">
+        <form class="questions-form">
+          <p></p>
+          <input id="option-one" type="radio" name="option-one"><label class="options" for="option-one"></label>
+        
+          <input id="option-two" type="radio" name="option-two"><label class="options" for="option-two"></label>
+          
+          <input id="option-three" type="radio" name="option-three"><label class="options" for="option-three"></label>
+          
+          <input id="option-four" type="radio" name="option-four"><label class="options" for="option-four"></label>
+          <input type="button" value="Submit Answer" class="submit-button js-submit-button">
+        </form>
+      </div>
+    </div>
+    <section class="feedback-section">
+      <div class="popup-box">
+        <button type="button" class="close-button js-close-button">X</button> <img src="" class="feedback-icon" alt=""><span id="popup-text"></span>
+      </div>
+    </section>
+    <section class="end-section">
+      <div class="correct"><img src="https://img.icons8.com/ios/250/000000/checked.png" alt="correct-icon"></div>
+      <div class="wrong"><img src="https://img.icons8.com/ios/250/000000/delete-sign.png" alt="wrong-icon"></div><input type="button" class="startover-button js-startover-button" value="Start Over">
+    </section>
+  </main>
+  <script src="//code.jquery.com/jquery.min.js"></script> 
+  <script type="text/javascript" src="MarineQuiz.js"></script>
+
+  <p> <li><a href="/games.html">Go Back</a></li></p>
+</body>
+</html>
