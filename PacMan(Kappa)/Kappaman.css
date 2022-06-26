@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+*,*:after, *:before{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color:black;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: 'Salbo 27px', serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.kappaman{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #7bc062;
+  position: relative;
+  margin-top: 20px;
+}
+
+.kappaman_eyes{
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  border-radius: 50%;
+  top: 20px;
+  right: 40px;
+  background: #333;
+}
+
+.kappaman_water{
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  border-radius: 50%;
+  top: -2px;
+  right: 47px;
+  background: #49c2ca;
+  outline-style: ;
+  outline-color: #804000
+  transform: rotate(-10deg);
+  transform-orgin: top right;
+}
+
+.kappaman_mouth{
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  animation-name: eat;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite; 
+}
+
+.kappaman_yum{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  top: 40%;
+  left: 120px;
+  animation-name: food;
+  animation-duration: 0.7;
+  animation-iteration-count: infinate;
+}
+
+@keyframes eat{
+  0%{
+      clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  }
+  25%{
+     clip-path: polygon(100% 60%, 44% 48%, 100% 40%);
+  }
+  50%{
+    clip-path: polygon(100% 50%, 44% 48%, 100% 50%);
+  }
+  75%{
+    clip-path: polygon(100% 50%, 44% 48%, 100% 35%);
+  }
+  100%{
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+  }
+}
+
+@keyframes food{
+  0%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100%{
+    transform: translateX(-62px);
+    opacity: 0;
+  }
+}
+.header{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
