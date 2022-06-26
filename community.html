@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>KappaGreen</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-iconn">
+        <nav>
+            <a href="index.html"><img src="kappa114.png"></a>
+            <div class= "nav-links" id="navLinks">
+                <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="communtiy.html">COMMUNITY</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Communtiy & Contact</h1>
+    </section>
+    
+    <!--------GKGCCEEOM----->
+    <section class="cceeom">
+        <h1>GKG Serving Earth</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="cceeom-col">
+                <img src="holdingearth.png">
+                <h3>Changing Climate Change</h3>
+                <p>The planet's climate is always changing. Human activities such as fossil fuel burning, cutting down forests, and generating power are the main cause of those changes. Due to those human activities, we have many bad climate change influences. Although through collaboration we can reverse our bad influences. Changing Climate Change is a force within our community that does a variaty of things, to learn more, visit our discord or reach out!</p>
+            </div>
+         <div class="cceeom-col">
+                <img src="leaflol.png">
+                <h3>What is Environmental Ease? </h3>
+                <p>Taking care of the environment can be difficult. It doesn't have to be though. Environmental Ease is what we like to call it. It's easy! Environmental Ease is a program in progress that allows users to share tips, connect to their local environmental organizations, and help spread awareness of our environment. If you're interested in helping organizing, reach out or visit our discord!</p>
+            </div>
+            <div class="cceeom-col">
+                <img src="kappa123.png">
+                <h3>Kappa in the Communtiy</h3>
+                <p>ur mascot isn't something you'd typically stumble across. It's a friendly green kappa that is here to help you and the world get healthier! Kappa's are japanese mythological creatures that live in the ponds and rivers of Japan. They are knonw for their green color, sometimes believed to have powers, and seen in some Japanese animations!</p>
+            </div>
+        </div>
+    </section>
+  
+    <!-----ContactComuncontent----->'
+<section class="contact">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-handshake-o"></i>
+                <span>
+                    <h5>Join the GKG Discord</h5>
+                  <p>(Discord-Server-Link-would-be-here)</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+1 0123456789</h5>
+                    <p>Bangalore Karnataka, IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@GKGkappa.com</h5>
+                    <p>Email Query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter Name" required>
+                <input type="email" placeholder="Enter Email" required>
+                <input type="text" placeholder="Enter Subject" required>
+                <textarea row="8" placeholder="Message" required></textarea>
+                <button type="Submit" class="hero-btn green-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+  <!------ More About us------>
+<section class="testimonials">
+    <h1>Donations</h1>
+    <p>Want to Donate or Donate to other Organzatoins? Find here:</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="kappa123.png">
+            <div>
+                <h3>Going Kappa Green</h3>
+                <p>We are not accepting donations at the moment due to updates being made during this time. Thank you for considering, Please check under the "Others" header to donate to other organizations! </p>
+                <i class="fa fa-th-list" aria-hidden="true"></i>
+            </div>
+        </div>
+    <div class="testimonial-col">
+            <img src="kappa123.png">
+            <div>
+                <h3>Others</h3>
+                <p>CoolEarth;         Union of Concerned Scientists
+                <br>
+                  Clean Air Task Force;         Rainforest Alliance
+                  <br>
+                  Carbon180;         Earth Justice
+                </p>
+                <i class="fa fa-th-list" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!----anyinworld----->
+    <section class="cta">
+        <h1>You can help from: <br> Anywhere in the World!</h1>
+      <p>Join Our Discord to Learn How!</p>
+    </section>
+    
+    <!----Footer ----->
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Contact Us through the COMMUNITY tab or through our discord!</p>
+        <div class= "icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made for <i class="fa fa-code"></i> Simplihacks Hackathon 2022 <i class="fa fa-code"></i> </p>
+    </section>
+    
+  <!--------js sidebannarmobile-------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
