@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>KappaGreen</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-iconn">
+        <nav>
+            <a href="index.html"><img src="kappa114.png"></a>
+            <div class= "nav-links" id="navLinks">
+                <i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="communtiy.html">COMMUNITY</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Games & Quizzes</h1>
+    </section>
+
+    <!------involvementgam---->
+    <section class="Games">
+    <h1>Our Games</h1>
+    <p>We are still working on our games and quizzes, Please feel free to play demos and join our discord for updates!</p>
+    <div class="row">
+      <div class="Game-col">
+        <h3>Interactive Games</h3>
+        <p>You can have fun and benefit the environment while playing our interactive games from anywhere! Depending on what GKG is working on, getting the highest score will let you choose where you want garbage picked up or awareness promoted!
+        <li><a href="PacMan(Kappa)/Kappaman.html">Sneak Peak of KappaMan</a></li>
+        </p>
+        </p>
+        </p>
+      </div>
+       <div class="Game-col">
+        <h3>Quiz #1</h3>
+        <p>Think you have a good understanding with the environment? Take our Marine Quiz! With a wide range of questions, you can test your knowledge and share in our discord!.<br>
+          <br>
+          <li><a href="MarineQuiz/MarineQuiz.html">Quiz#1</a></li></p>
+      </div>
+      <div class="Game-col">
+        <h3>Quiz #2</h3>
+        <p>Coming soon!<br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <li><a href="">Quiz#2</a></li></p>
+      </div>
+    </div>
+  </section>
+
+    <!----Footer ----->
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Contact Us through the COMMUNITY tab or through our discord!</p>
+        <div class= "icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made for <i class="fa fa-code"></i> Simplihacks Hackathon 2022 <i class="fa fa-code"></i> </p>
+    </section>
+    
+  <!--------js sidebannarmobile-------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
